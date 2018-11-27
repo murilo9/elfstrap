@@ -2,11 +2,96 @@
     margin: 0px;
     padding: 0px;
     border: none;
+    text-decoration: none;
 }
 .container{
-    margin: 5px;
-    font-family: "Verdana";
+    margin: 12px;
+    font-family: "Calibri Light"; /*Calibri*/
+    font-size: 12pt;
     color: #202020;
+}
+.container-narrow{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container h1{
+    margin-top: 24px;
+    font-family: "Calibri";
+    margin-bottom: 12px;
+}
+.container h2{
+    margin-top: 24px;
+    font-family: "Calibri";
+    margin-bottom: 12px;
+}
+.container h3{
+    margin-top: 24px;
+    font-family: "Calibri";
+    margin-bottom: 12px;
+}
+.container h4{
+    margin-top: 12px;
+    font-family: "Calibri";
+    margin-bottom: 12px;
+}
+.container h5{
+    margin-top: 12px;
+    font-family: "Calibri";
+    margin-bottom: 12px;
+}
+.container h6{
+    margin-top: 12px;
+    font-family: "Calibri";
+    margin-bottom: 12px;
+}
+
+.container p{
+    margin-bottom: 4px;
+}
+
+.container .note{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.container .note-default{
+    background: #eeeeee;
+    border: 1px solid gray;
+    border-left: 5px solid gray
+}
+.container .note-blue{
+    background: rgb(211, 211, 248);
+    border: 1px solid rgb(34, 34, 109);
+    border-left: 5px solid rgb(34, 34, 109);
+}
+.container .note-red{
+    background: rgb(252, 201, 201);
+    border: 1px solid rgb(87, 2, 2);
+    border-left: 5px solid rgb(87, 2, 2);
+}
+.container .note-yellow{
+    background: rgb(250, 240, 149);
+    border: 1px solid rgb(224, 191, 0);
+    border-left: 5px solid rgb(224, 191, 0);
+}
+.container .note-green{
+    background: rgb(181, 248, 172);
+    border: 1px solid rgb(8, 63, 1);
+    border-left: 5px solid rgb(8, 63, 1);
+}
+
+.container a{
+    color: rgb(214, 59, 3);
+}
+.container a:visited{
+    color: rgb(180, 2, 171);
+}
+.container a:hover{
+    text-decoration: underline;
 }
 
 /* Buttons */
@@ -17,7 +102,7 @@
 }
 .container .btn-blue{
     color: rgb(211, 211, 248);
-    background: rgb(14, 14, 46);
+    background: rgb(34, 34, 109);
 }
 .container .btn-red{
     color:  rgb(252, 201, 201);
@@ -43,6 +128,36 @@
 }
 .container .btn:active{
     opacity: 1;
+}
+
+/* Text */
+
+.container .ta-left{
+    text-align: left;
+}
+.container .ta-right{
+    text-align: right;
+}
+.container .ta-center{
+    text-align: center;
+}
+.container .ta-justify{
+    text-align: justify;
+}
+.container .tc-white{
+    color: white;
+}
+.container .tc-blue{
+    color: rgb(27, 27, 87);
+}
+.container .tc-red{
+    color:  rgb(133, 0, 0);
+}
+.container .tc-yellow{
+    color: rgb(173, 133, 0);
+}
+.container .tc-green{
+    color: rgb(12, 94, 1);
 }
 
 
