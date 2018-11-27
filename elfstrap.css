@@ -9,7 +9,9 @@
     border: 1px solid red;
 }
 
-.row{
+
+
+.container .row{
     display: table;
     width: 100%;
 }
