@@ -1,6 +1,6 @@
-grid layout
+grid layout [OK]
 estilos de texto
-caixas de conteúdo
+caixas de conteï¿½do
 tabelas
 enfeites
 buttons e clickables
