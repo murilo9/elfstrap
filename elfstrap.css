@@ -1,14 +1,49 @@
 *{      /* MASTER CLEAR */
     margin: 0px;
     padding: 0px;
+    border: none;
 }
 .container{
     margin: 5px;
     font-family: "Verdana";
     color: #202020;
-    border: 1px solid red;
 }
 
+/* Buttons */
+
+.container .btn-default{
+    color: white;
+    background: #202020;
+}
+.container .btn-blue{
+    color: rgb(211, 211, 248);
+    background: rgb(14, 14, 46);
+}
+.container .btn-red{
+    color:  rgb(252, 201, 201);
+    background:  rgb(87, 2, 2);
+}
+.container .btn-yellow{
+    color: rgb(255, 225, 125);
+    background: rgb(173, 133, 0);
+}
+.container .btn-green{
+    color: rgb(181, 248, 172);
+    background: rgb(8, 63, 1);
+}
+.container .btn{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana;
+}
+.container .btn:hover{
+    opacity: 0.7;
+}
+.container .btn:active{
+    opacity: 1;
+}
 
 
 .container .row{
