@@ -1,0 +1,167 @@
+*{      /* MASTER CLEAR */
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 5px;
+    font-family: "Verdana";
+    color: #202020;
+    border: 1px solid red;
+}
+
+.row{
+    display: table;
+    width: 100%;
+}
+
+@media  (max-width: 576px){                             /* Media Phone */
+
+    .container .row .col-1{
+        display: block;
+        border: 1px solid black;    /* DEBUG */
+    }
+
+    .container .row .col-2{
+        display: block;
+        border: 1px solid black;    /* DEBUG */
+    }
+
+    .container .row .col-3{
+        display: block;
+        border: 1px solid black;    /* DEBUG */
+    }
+
+    .container .row .col-4{
+        display: table-cell;
+        width: 33%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-6{
+        display: table-cell;
+        width: 50%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-8{
+        display: table-cell;
+        width: 66.5%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-10{
+        display: table-cell;
+        width: 83%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-12{
+        display: table-cell;
+        width: 100%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+}
+
+@media  (min-width: 578px) and (max-width: 1023px){      /* Media Tablet */
+
+    .container .row .col-1{
+        display: block;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-2{
+        display: table-cell;
+        width: 16.5%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-3{
+        display: table-cell;
+        width: 25%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-4{
+        display: table-cell;
+        width: 33%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-6{
+        display: table-cell;
+        width: 50%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-8{
+        display: table-cell;
+        width: 66.5%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-10{
+        display: table-cell;
+        width: 83%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-12{
+        display: table-cell;
+        width: 100%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+}
+
+@media  (min-width: 1024px){                            /* Media Desktop (no limit) */
+
+    .container .row .col-1{
+        display: table-cell;
+        width: 8.2%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-2{
+        display: table-cell;
+        width: 16.5%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-3{
+        display: table-cell;
+        width: 25%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-4{
+        display: table-cell;
+        width: 33%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-6{
+        display: table-cell;
+        width: 50%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-8{
+        display: table-cell;
+        width: 66.5%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-10{
+        display: table-cell;
+        width: 83%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+    .container .row .col-12{
+        display: table-cell;
+        width: 100%;
+        overflow: hidden;
+        border: 1px solid black;    /* DEBUG */
+    }
+}
+
