@@ -94,6 +94,71 @@
     text-decoration: underline;
 }
 
+/* Table */
+
+.container .table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20;
+}
+.container .table thead th{
+    padding: 10px;
+}
+.container .table tr td{
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    font-family: "Calibri";
+    text-align: center;
+}
+
+.container .table-default thead th{
+    background: #eeeeee;
+}
+.container .table-default thead th:first-child, .container .table-default tr td:first-child{
+    border-left: 4px solid gray;
+}
+.container .table-default thead th:last-child, .container .table-default tr td:last-child{
+    border-right: 4px solid gray;
+}
+.container .table-blue thead th{
+    background: rgb(211, 211, 248);
+}
+.container .table-blue thead th:first-child, .container .table-blue tr td:first-child{
+    border-left: 4px solid rgb(34, 34, 109);
+}
+.container .table-blue thead th:last-child, .container .table-blue tr td:last-child{
+    border-right: 4px solid rgb(34, 34, 109);
+}
+.container .table-red thead th{
+    background: rgb(252, 201, 201);
+}
+.container .table-red thead th:first-child, .container .table-red tr td:first-child{
+    border-left: 4px solid rgb(87, 2, 2);
+}
+.container .table-red thead th:last-child, .container .table-red tr td:last-child{
+    border-right: 4px solid rgb(87, 2, 2);
+}
+.container .table-yellow thead th{
+    background: rgb(255, 225, 125);
+}
+.container .table-yellow thead th:first-child, .container .table-yellow tr td:first-child{
+    border-left: 4px solid rgb(173, 133, 0);
+}
+.container .table-yellow thead th:last-child, .container .table-yellow tr td:last-child{
+    border-right: 4px solid rgb(173, 133, 0);
+}
+.container .table-green thead th{
+    background: rgb(181, 248, 172);
+}
+.container .table-green thead th:first-child, .container .table-green tr td:first-child{
+    border-left: 4px solid rgb(8, 63, 1);
+}
+.container .table-green thead th:last-child, .container .table-green tr td:last-child{
+    border-right: 4px solid rgb(8, 63, 1);
+}
+
 /* Buttons */
 
 .container .btn-default{
