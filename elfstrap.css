@@ -159,6 +159,114 @@
     border-right: 4px solid rgb(8, 63, 1);
 }
 
+/* Panels */
+
+.container .panel{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.container .phead{
+    border-bottom: 1px solid gray;
+    padding: 12px;
+    padding-left: 10px;
+    font-size: 130%;
+    font-family: Verdana;
+    font-weight: bold;
+}
+.container .pbody{
+    padding: 10px;
+}
+.container .pfooter{
+    border-top: 1px solid gray;
+    padding: 4px;
+    padding-left: 10px; 
+    font-size: 70%;
+}
+.container .panel-centered .phead, .container .panel-centered .pfooter{
+    text-align: center;
+}
+.container .panel-default{
+    border: 1px solid gray;
+}
+.container .panel-default .phead{
+    background: #cccccc;
+}
+.container .panel-default .pfooter{
+    background: gray;
+}
+.container .panel-black{
+    border: black;
+    color: white;
+}
+.container .panel-black .phead{
+    background: black;
+    border-color: black
+}
+.container .panel-black .pbody{
+    background: #202020;
+}
+.container .panel-black .pfooter{
+    background: #101010;
+    border-color: black;
+    color: gray;
+}
+.container .panel-blue{
+    border: 1px solid rgb(134, 156, 252);
+}
+.container .panel-blue .phead{
+    background: rgb(134, 156, 252);
+    border-color: rgb(134, 156, 252);
+}
+.container .panel-blue .pbody{
+    background: rgb(191, 191, 250);
+}
+.container .panel-blue .pfooter{
+    background: rgb(134, 156, 252);
+    border-color: rgb(134, 156, 252);
+}
+.container .panel-red{
+    border: 1px solid rgb(252, 107, 107);
+}
+.container .panel-red .phead{
+    background: rgb(252, 107, 107);
+    border-color: rgb(252, 107, 107);
+}
+.container .panel-red .pbody{
+    background: rgb(255, 168, 168);
+}
+.container .panel-red .pfooter{
+    background: rgb(252, 107, 107);
+    border-color: rgb(252, 107, 107);
+}
+.container .panel-yellow{
+    border: 1px solid rgb(224, 173, 6);
+}
+.container .panel-yellow .phead{
+    background: rgb(224, 173, 6);
+    border-color: rgb(224, 173, 6);
+}
+.container .panel-yellow .pbody{
+    background: rgb(255, 225, 125);
+}
+.container .panel-yellow .pfooter{
+    background: rgb(224, 173, 6);
+    border-color: rgb(224, 173, 6);
+}
+.container .panel-green{
+    border: 1px solid rgb(39, 138, 26);
+}
+.container .panel-green .phead{
+    background: rgb(39, 138, 26);
+    border-color: rgb(39, 138, 26);
+}
+.container .panel-green .pbody{
+    background: rgb(170, 250, 159);
+}
+.container .panel-green .pfooter{
+    background: rgb(39, 138, 26);
+    border-color: rgb(39, 138, 26);
+}
+
 /* Form */
 
 .container .elform{
