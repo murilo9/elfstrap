@@ -159,9 +159,75 @@
     border-right: 4px solid rgb(8, 63, 1);
 }
 
+/* Form */
+
+.container .elform{
+    padding: 10px;
+}
+.container .elform input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 7px;
+    border-bottom: 1px solid gray;
+    vertical-align: center;
+}
+.container .elform [type = submit]{
+    border: none;
+    background: #cccccc;
+    margin-left: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana;
+}
+.container .elform select{
+    margin: 10px;
+    margin-left: 0;
+    border: 1px solid gray;
+    padding: 6px;
+}
+.container .elform [type = radio]{
+    margin-left: 0;
+    background: none;
+    margin-right: 10px;
+}
+.container .elform [type = radio]:focus{
+    background: none;
+}
+.container .elform [type = checkbox]{
+    margin-left: 0;
+    background: none;
+    margin-right: 10px;
+}
+.container .elform [type = checkbox]:focus{
+    background: none;
+}
+.container .elform textarea{
+    display: block;
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container .elform .ta-small{
+    height: 64px;
+}
+.container .elform .ta-medium{
+    height: 128px;
+}
+.container .elform .ta-large{
+    height: 256px;
+}
+
 /* Buttons */
 
 .container .btn-default{
+    color: black;
+    background: gray;
+}
+.container .btn-black{
     color: white;
     background: #202020;
 }
