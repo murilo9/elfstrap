@@ -4,53 +4,53 @@
     border: none;
     text-decoration: none;
 }
-.container{
+.elf-container{
     margin: 12px;
     font-family: "Calibri Light"; /*Calibri*/
     font-size: 12pt;
     color: #202020;
 }
-.container-narrow{
+.elf-container-narrow{
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.container h1{
+.elf-container h1{
     margin-top: 24px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
-.container h2{
+.elf-container h2{
     margin-top: 24px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
-.container h3{
+.elf-container h3{
     margin-top: 24px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
-.container h4{
+.elf-container h4{
     margin-top: 12px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
-.container h5{
+.elf-container h5{
     margin-top: 12px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
-.container h6{
+.elf-container h6{
     margin-top: 12px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
 
-.container p{
+.elf-container p{
     margin-bottom: 4px;
 }
 
-.container .note{
+.elf-container .note{
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 8px;
@@ -58,54 +58,54 @@
     margin-top: 8px;
     margin-bottom: 8px;
 }
-.container .note-default{
+.elf-container .note-default{
     background: #eeeeee;
     border: 1px solid gray;
     border-left: 5px solid gray
 }
-.container .note-blue{
+.elf-container .note-blue{
     background: rgb(211, 211, 248);
     border: 1px solid rgb(34, 34, 109);
     border-left: 5px solid rgb(34, 34, 109);
 }
-.container .note-red{
+.elf-container .note-red{
     background: rgb(252, 201, 201);
     border: 1px solid rgb(87, 2, 2);
     border-left: 5px solid rgb(87, 2, 2);
 }
-.container .note-yellow{
+.elf-container .note-yellow{
     background: rgb(250, 240, 149);
     border: 1px solid rgb(224, 191, 0);
     border-left: 5px solid rgb(224, 191, 0);
 }
-.container .note-green{
+.elf-container .note-green{
     background: rgb(181, 248, 172);
     border: 1px solid rgb(8, 63, 1);
     border-left: 5px solid rgb(8, 63, 1);
 }
 
-.container a{
+.elf-container a{
     color: rgb(214, 59, 3);
 }
-.container a:visited{
+.elf-container a:visited{
     color: rgb(180, 2, 171);
 }
-.container a:hover{
+.elf-container a:hover{
     text-decoration: underline;
 }
 
 /* Table */
 
-.container .table{
+.elf-container .table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     margin-bottom: 20;
 }
-.container .table thead th{
+.elf-container .table thead th{
     padding: 10px;
 }
-.container .table tr td{
+.elf-container .table tr td{
     margin: 0;
     padding: 10px;
     border-bottom: 1px solid gray;
@@ -113,59 +113,59 @@
     text-align: center;
 }
 
-.container .table-default thead th{
+.elf-container .table-default thead th{
     background: #eeeeee;
 }
-.container .table-default thead th:first-child, .container .table-default tr td:first-child{
+.elf-container .table-default thead th:first-child, .elf-container .table-default tr td:first-child{
     border-left: 4px solid gray;
 }
-.container .table-default thead th:last-child, .container .table-default tr td:last-child{
+.elf-container .table-default thead th:last-child, .elf-container .table-default tr td:last-child{
     border-right: 4px solid gray;
 }
-.container .table-blue thead th{
+.elf-container .table-blue thead th{
     background: rgb(211, 211, 248);
 }
-.container .table-blue thead th:first-child, .container .table-blue tr td:first-child{
+.elf-container .table-blue thead th:first-child, .elf-container .table-blue tr td:first-child{
     border-left: 4px solid rgb(34, 34, 109);
 }
-.container .table-blue thead th:last-child, .container .table-blue tr td:last-child{
+.elf-container .table-blue thead th:last-child, .elf-container .table-blue tr td:last-child{
     border-right: 4px solid rgb(34, 34, 109);
 }
-.container .table-red thead th{
+.elf-container .table-red thead th{
     background: rgb(252, 201, 201);
 }
-.container .table-red thead th:first-child, .container .table-red tr td:first-child{
+.elf-container .table-red thead th:first-child, .elf-container .table-red tr td:first-child{
     border-left: 4px solid rgb(87, 2, 2);
 }
-.container .table-red thead th:last-child, .container .table-red tr td:last-child{
+.elf-container .table-red thead th:last-child, .elf-container .table-red tr td:last-child{
     border-right: 4px solid rgb(87, 2, 2);
 }
-.container .table-yellow thead th{
+.elf-container .table-yellow thead th{
     background: rgb(255, 225, 125);
 }
-.container .table-yellow thead th:first-child, .container .table-yellow tr td:first-child{
+.elf-container .table-yellow thead th:first-child, .elf-container .table-yellow tr td:first-child{
     border-left: 4px solid rgb(173, 133, 0);
 }
-.container .table-yellow thead th:last-child, .container .table-yellow tr td:last-child{
+.elf-container .table-yellow thead th:last-child, .elf-container .table-yellow tr td:last-child{
     border-right: 4px solid rgb(173, 133, 0);
 }
-.container .table-green thead th{
+.elf-container .table-green thead th{
     background: rgb(181, 248, 172);
 }
-.container .table-green thead th:first-child, .container .table-green tr td:first-child{
+.elf-container .table-green thead th:first-child, .elf-container .table-green tr td:first-child{
     border-left: 4px solid rgb(8, 63, 1);
 }
-.container .table-green thead th:last-child, .container .table-green tr td:last-child{
+.elf-container .table-green thead th:last-child, .elf-container .table-green tr td:last-child{
     border-right: 4px solid rgb(8, 63, 1);
 }
 
 /* Panels */
 
-.container .panel{
+.elf-container .panel{
     margin-top: 12px;
     margin-bottom: 12px;
 }
-.container .phead{
+.elf-container .phead{
     border-bottom: 1px solid gray;
     padding: 12px;
     padding-left: 10px;
@@ -173,106 +173,106 @@
     font-family: Verdana;
     font-weight: bold;
 }
-.container .pbody{
+.elf-container .pbody{
     padding: 10px;
 }
-.container .pfooter{
+.elf-container .pfooter{
     border-top: 1px solid gray;
     padding: 4px;
     padding-left: 10px; 
     font-size: 70%;
 }
-.container .panel-centered .phead, .container .panel-centered .pfooter{
+.elf-container .panel-centered .phead, .elf-container .panel-centered .pfooter{
     text-align: center;
 }
-.container .panel-default{
+.elf-container .panel-default{
     border: 1px solid gray;
 }
-.container .panel-default .phead{
+.elf-container .panel-default .phead{
     background: #cccccc;
 }
-.container .panel-default .pfooter{
+.elf-container .panel-default .pfooter{
     background: gray;
 }
-.container .panel-black{
+.elf-container .panel-black{
     border: black;
     color: white;
 }
-.container .panel-black .phead{
+.elf-container .panel-black .phead{
     background: black;
     border-color: black
 }
-.container .panel-black .pbody{
+.elf-container .panel-black .pbody{
     background: #202020;
 }
-.container .panel-black .pfooter{
+.elf-container .panel-black .pfooter{
     background: #101010;
     border-color: black;
     color: gray;
 }
-.container .panel-blue{
+.elf-container .panel-blue{
     border: 1px solid rgb(134, 156, 252);
 }
-.container .panel-blue .phead{
+.elf-container .panel-blue .phead{
     background: rgb(134, 156, 252);
     border-color: rgb(134, 156, 252);
 }
-.container .panel-blue .pbody{
+.elf-container .panel-blue .pbody{
     background: rgb(191, 191, 250);
 }
-.container .panel-blue .pfooter{
+.elf-container .panel-blue .pfooter{
     background: rgb(134, 156, 252);
     border-color: rgb(134, 156, 252);
 }
-.container .panel-red{
+.elf-container .panel-red{
     border: 1px solid rgb(252, 107, 107);
 }
-.container .panel-red .phead{
+.elf-container .panel-red .phead{
     background: rgb(252, 107, 107);
     border-color: rgb(252, 107, 107);
 }
-.container .panel-red .pbody{
+.elf-container .panel-red .pbody{
     background: rgb(255, 168, 168);
 }
-.container .panel-red .pfooter{
+.elf-container .panel-red .pfooter{
     background: rgb(252, 107, 107);
     border-color: rgb(252, 107, 107);
 }
-.container .panel-yellow{
+.elf-container .panel-yellow{
     border: 1px solid rgb(224, 173, 6);
 }
-.container .panel-yellow .phead{
+.elf-container .panel-yellow .phead{
     background: rgb(224, 173, 6);
     border-color: rgb(224, 173, 6);
 }
-.container .panel-yellow .pbody{
+.elf-container .panel-yellow .pbody{
     background: rgb(255, 225, 125);
 }
-.container .panel-yellow .pfooter{
+.elf-container .panel-yellow .pfooter{
     background: rgb(224, 173, 6);
     border-color: rgb(224, 173, 6);
 }
-.container .panel-green{
+.elf-container .panel-green{
     border: 1px solid rgb(39, 138, 26);
 }
-.container .panel-green .phead{
+.elf-container .panel-green .phead{
     background: rgb(39, 138, 26);
     border-color: rgb(39, 138, 26);
 }
-.container .panel-green .pbody{
+.elf-container .panel-green .pbody{
     background: rgb(170, 250, 159);
 }
-.container .panel-green .pfooter{
+.elf-container .panel-green .pfooter{
     background: rgb(39, 138, 26);
     border-color: rgb(39, 138, 26);
 }
 
 /* Form */
 
-.container .elform{
+.elf-container .elform{
     padding: 10px;
 }
-.container .elform input{
+.elf-container .elform input{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 10px;
@@ -280,7 +280,7 @@
     border-bottom: 1px solid gray;
     vertical-align: center;
 }
-.container .elform [type = submit]{
+.elf-container .elform [type = submit]{
     border: none;
     background: #cccccc;
     margin-left: 0;
@@ -290,156 +290,156 @@
     padding-bottom: 10px;
     font-family: Verdana;
 }
-.container .elform select{
+.elf-container .elform select{
     margin: 10px;
     margin-left: 0;
     border: 1px solid gray;
     padding: 6px;
 }
-.container .elform [type = radio]{
+.elf-container .elform [type = radio]{
     margin-left: 0;
     background: none;
     margin-right: 10px;
 }
-.container .elform [type = radio]:focus{
+.elf-container .elform [type = radio]:focus{
     background: none;
 }
-.container .elform [type = checkbox]{
+.elf-container .elform [type = checkbox]{
     margin-left: 0;
     background: none;
     margin-right: 10px;
 }
-.container .elform [type = checkbox]:focus{
+.elf-container .elform [type = checkbox]:focus{
     background: none;
 }
-.container .elform textarea{
+.elf-container .elform textarea{
     display: block;
     width: 100%;
     border: 1px solid gray;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.container .elform .ta-small{
+.elf-container .elform .ta-small{
     height: 64px;
 }
-.container .elform .ta-medium{
+.elf-container .elform .ta-medium{
     height: 128px;
 }
-.container .elform .ta-large{
+.elf-container .elform .ta-large{
     height: 256px;
 }
 
 /* Buttons */
 
-.container .btn-default{
+.elf-container .btn-default{
     color: black;
     background: gray;
 }
-.container .btn-black{
+.elf-container .btn-black{
     color: white;
     background: #202020;
 }
-.container .btn-blue{
+.elf-container .btn-blue{
     color: rgb(211, 211, 248);
     background: rgb(34, 34, 109);
 }
-.container .btn-red{
+.elf-container .btn-red{
     color:  rgb(252, 201, 201);
     background:  rgb(87, 2, 2);
 }
-.container .btn-yellow{
+.elf-container .btn-yellow{
     color: rgb(255, 225, 125);
     background: rgb(173, 133, 0);
 }
-.container .btn-green{
+.elf-container .btn-green{
     color: rgb(181, 248, 172);
     background: rgb(8, 63, 1);
 }
-.container .btn{
+.elf-container .btn{
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: Verdana;
 }
-.container .btn:hover{
+.elf-container .btn:hover{
     opacity: 0.7;
 }
-.container .btn:active{
+.elf-container .btn:active{
     opacity: 1;
 }
 
 /* Text */
 
-.container .ta-left{
+.elf-container .ta-left{
     text-align: left;
 }
-.container .ta-right{
+.elf-container .ta-right{
     text-align: right;
 }
-.container .ta-center{
+.elf-container .ta-center{
     text-align: center;
 }
-.container .ta-justify{
+.elf-container .ta-justify{
     text-align: justify;
 }
-.container .tc-white{
+.elf-container .tc-white{
     color: white;
 }
-.container .tc-blue{
+.elf-container .tc-blue{
     color: rgb(27, 27, 87);
 }
-.container .tc-red{
+.elf-container .tc-red{
     color:  rgb(133, 0, 0);
 }
-.container .tc-yellow{
+.elf-container .tc-yellow{
     color: rgb(173, 133, 0);
 }
-.container .tc-green{
+.elf-container .tc-green{
     color: rgb(12, 94, 1);
 }
 
 
-.container .row{
+.elf-container .row{
     display: table;
     width: 100%;
 }
 
 @media  (max-width: 576px){                             /* Media Phone */
 
-    .container .row .col-1{
+    .elf-container .row .col-1{
         display: block;
     }
 
-    .container .row .col-2{
+    .elf-container .row .col-2{
         display: block;
     }
 
-    .container .row .col-3{
+    .elf-container .row .col-3{
         display: block;
     }
 
-    .container .row .col-4{
+    .elf-container .row .col-4{
         display: table-cell;
         width: 33%;
         overflow: hidden;
     }
-    .container .row .col-6{
+    .elf-container .row .col-6{
         display: table-cell;
         width: 50%;
         overflow: hidden;
     }
-    .container .row .col-8{
+    .elf-container .row .col-8{
         display: table-cell;
         width: 66.5%;
         overflow: hidden;
     }
-    .container .row .col-10{
+    .elf-container .row .col-10{
         display: table-cell;
         width: 83%;
         overflow: hidden;
     }
-    .container .row .col-12{
+    .elf-container .row .col-12{
         display: table-cell;
         width: 100%;
         overflow: hidden;
@@ -448,40 +448,40 @@
 
 @media  (min-width: 578px) and (max-width: 1023px){      /* Media Tablet */
 
-    .container .row .col-1{
+    .elf-container .row .col-1{
         display: block;
     }
-    .container .row .col-2{
+    .elf-container .row .col-2{
         display: table-cell;
         width: 16.5%;
         overflow: hidden;
     }
-    .container .row .col-3{
+    .elf-container .row .col-3{
         display: table-cell;
         width: 25%;
         overflow: hidden;
     }
-    .container .row .col-4{
+    .elf-container .row .col-4{
         display: table-cell;
         width: 33%;
         overflow: hidden;
     }
-    .container .row .col-6{
+    .elf-container .row .col-6{
         display: table-cell;
         width: 50%;
         overflow: hidden;
     }
-    .container .row .col-8{
+    .elf-container .row .col-8{
         display: table-cell;
         width: 66.5%;
         overflow: hidden;
     }
-    .container .row .col-10{
+    .elf-container .row .col-10{
         display: table-cell;
         width: 83%;
         overflow: hidden;
     }
-    .container .row .col-12{
+    .elf-container .row .col-12{
         display: table-cell;
         width: 100%;
         overflow: hidden;
@@ -490,42 +490,42 @@
 
 @media  (min-width: 1024px){                            /* Media Desktop (no limit) */
 
-    .container .row .col-1{
+    .elf-container .row .col-1{
         display: table-cell;
         width: 8.2%;
         overflow: hidden;
     }
-    .container .row .col-2{
+    .elf-container .row .col-2{
         display: table-cell;
         width: 16.5%;
         overflow: hidden;
     }
-    .container .row .col-3{
+    .elf-container .row .col-3{
         display: table-cell;
         width: 25%;
         overflow: hidden;
     }
-    .container .row .col-4{
+    .elf-container .row .col-4{
         display: table-cell;
         width: 33%;
         overflow: hidden;
     }
-    .container .row .col-6{
+    .elf-container .row .col-6{
         display: table-cell;
         width: 50%;
         overflow: hidden;
     }
-    .container .row .col-8{
+    .elf-container .row .col-8{
         display: table-cell;
         width: 66.5%;
         overflow: hidden;
     }
-    .container .row .col-10{
+    .elf-container .row .col-10{
         display: table-cell;
         width: 83%;
         overflow: hidden;
     }
-    .container .row .col-12{
+    .elf-container .row .col-12{
         display: table-cell;
         width: 100%;
         overflow: hidden;

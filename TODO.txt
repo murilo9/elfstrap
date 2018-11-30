@@ -1,9 +1,9 @@
 grid layout [OK]
-estilos de texto
+estilos de texto [ok]
 caixas de conte�do
-tabelas
+tabelas [ok]
 enfeites
-buttons e clickables
+buttons e clickables 
 navbar
-forms
+forms [ok]
 media divs
