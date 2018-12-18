@@ -267,6 +267,106 @@
     border-color: rgb(39, 138, 26);
 }
 
+/* Jumbobox */
+
+.elf-container .jumbobox{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 16px;
+    background: #cccccc;
+    border: 1px solid gray;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+
+/* List-set */
+
+.elf-container .list-default .list-item{
+    list-style: none;
+    padding: 10px;
+    border: 1px solid gray;
+    border-bottom: none;
+}
+.elf-container .list-default .list-item:last-child{
+    list-style: none;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-bottom: 12px;
+}
+.elf-container .list-black .list-item{
+    list-style: none;
+    padding: 10px;
+    color: #cccccc;
+    background: #202020;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.elf-container .list-black .list-item:last-child{
+    list-style: none;
+    padding: 10px;
+    color: #cccccc;
+    background: #202020;
+    border: 1px solid black;
+    margin-bottom: 12px;
+}
+.elf-container .list-blue .list-item{
+    list-style: none;
+    padding: 10px;
+    background: rgb(191, 191, 250);
+    border: 1px solid rgb(134, 156, 252);
+    border-bottom: none;
+}
+.elf-container .list-blue .list-item:last-child{
+    list-style: none;
+    padding: 10px;
+    background: rgb(191, 191, 250);
+    border: 1px solid rgb(134, 156, 252);
+    margin-bottom: 12px;
+}
+.elf-container .list-red .list-item{
+    list-style: none;
+    padding: 10px;
+    background: rgb(255, 168, 168);
+    border: 1px solid rgb(252, 107, 107);
+    border-bottom: none;
+}
+.elf-container .list-red .list-item:last-child{
+    list-style: none;
+    padding: 10px;
+    background: rgb(255, 168, 168);
+    border: 1px solid rgb(252, 107, 107);
+    margin-bottom: 12px;
+}
+.elf-container .list-yellow .list-item{
+    list-style: none;
+    padding: 10px;
+    background: rgb(255, 225, 125);
+    border: 1px solid rgb(224, 173, 6);
+    border-bottom: none;
+}
+.elf-container .list-yellow .list-item:last-child{
+    list-style: none;
+    padding: 10px;
+    background: rgb(255, 225, 125);
+    border: 1px solid rgb(224, 173, 6);
+    margin-bottom: 12px;
+}
+.elf-container .list-green .list-item{
+    list-style: none;
+    padding: 10px;
+    background: rgb(170, 250, 159);
+    border: 1px solid rgb(39, 138, 26);
+    border-bottom: none;
+}
+.elf-container .list-green .list-item:last-child{
+    list-style: none;
+    padding: 10px;
+    background: rgb(170, 250, 159);
+    border: 1px solid rgb(39, 138, 26);
+    margin-bottom: 12px;
+}
+
 /* Form */
 
 .elf-container .elform{
