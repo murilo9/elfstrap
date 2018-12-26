@@ -100,7 +100,7 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    margin-bottom: 20;
+    margin-bottom: 20px;
 }
 .elf-container .table thead th{
     padding: 10px;
@@ -121,6 +121,20 @@
 }
 .elf-container .table-default thead th:last-child, .elf-container .table-default tr td:last-child{
     border-right: 4px solid gray;
+}
+.elf-container .table-black thead th{
+    background: #101010;
+    color: white;
+}
+.elf-container .table-black td{
+    background: #202020;
+    color: white;
+}
+.elf-container .table-black thead th:first-child, .elf-container .table-black tr td:first-child{
+    border-left: 4px solid black;
+}
+.elf-container .table-black thead th:last-child, .elf-container .table-black tr td:last-child{
+    border-right: 4px solid black;
 }
 .elf-container .table-blue thead th{
     background: rgb(211, 211, 248);
