@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 .elf-container{
-    margin: 12px;
+    margin: 0px;
     font-family: "Calibri Light"; /*Calibri*/
     font-size: 12pt;
     color: #202020;
@@ -399,6 +399,49 @@
     background: rgb(170, 250, 159);
     border: 1px solid rgb(39, 138, 26);
     margin-bottom: 12px;
+}
+
+/* Navbar */
+
+.elf-container .elfnav{
+    width: 100%;
+    margin: 0px;
+}
+.elf-container .elfnav ul{
+    display: inline-block;
+    list-style-type: none;
+    overflow: hidden;   /* Importante para que os botões do navbar funcionem corretamente... */
+}
+.elf-container .elfnav .elfnav-right{
+    float: right;
+}
+.elf-container .elfnav ul li{
+    display: inline-block;
+}
+.elf-container .elfnav ul li a{
+    color: inherit;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+.elf-container .elfnav ul li a:visited{
+    color: inherit;
+}
+.elf-container .elfnav ul #active{
+    opacity: 0.5;
+}
+.elf-container .elfnav form{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.elf-container .elfnav [type = text]{
+    margin: 0px;
+    padding: 6px;
+    border: 1px solid gray;
+    vertical-align: top;
 }
 
 /* Form */
