@@ -16,38 +16,38 @@
 }
 
 .elf-container h1{
-    margin-top: 24px;
+    margin-top: 236px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
 .elf-container h2{
-    margin-top: 24px;
+    margin-top: 36px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
 .elf-container h3{
-    margin-top: 24px;
+    margin-top: 36px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
 .elf-container h4{
-    margin-top: 12px;
+    margin-top: 24px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
 .elf-container h5{
-    margin-top: 12px;
+    margin-top: 24px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
 .elf-container h6{
-    margin-top: 12px;
+    margin-top: 24px;
     font-family: "Calibri";
     margin-bottom: 12px;
 }
 
 .elf-container p{
-    margin-bottom: 4px;
+    margin-bottom: 24px;
 }
 
 .elf-container .note{
@@ -162,8 +162,8 @@
 /* Panels */
 
 .elf-container .panel{
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 .elf-container .phead{
     border-bottom: 1px solid gray;
@@ -181,6 +181,7 @@
     padding: 4px;
     padding-left: 10px; 
     font-size: 70%;
+    font-weight: bold;
 }
 .elf-container .panel-centered .phead, .elf-container .panel-centered .pfooter{
     text-align: center;
@@ -270,7 +271,7 @@
 /* Jumbobox */
 
 .elf-container .jumbobox{
-    margin-top: 12px;
+    margin-top: 12px;       /* Jumboboxes possuem uma margin vertical menor (12px) propositadamente */
     margin-bottom: 12px;
     padding: 16px;
     background: #cccccc;
@@ -281,6 +282,25 @@
 
 
 /* List-set */
+
+.elf-container .list-default{
+    margin-bottom: 24px;
+}
+.elf-container .list-black{
+    margin-bottom: 24px;
+}
+.elf-container .list-red{
+    margin-bottom: 24px;
+}
+.elf-container .list-blue{
+    margin-bottom: 24px;
+}
+.elf-container .list-green{
+    margin-bottom: 24px;
+}
+.elf-container .list-yellow{
+    margin-bottom: 24px;
+}
 
 .elf-container .list-default .list-item{
     list-style: none;
