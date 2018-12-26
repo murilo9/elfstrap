@@ -6,12 +6,42 @@
     <style>
         .test{
             border: 1px solid black;
+            font-weight: bold;
+        }
+        .col-1{
+            background: yellow;
+        }
+        .col-2{
+            background: orangered;
+        }
+        .col-3{
+            background: pink;
+        }
+        .col-4{
+            background: green;
+        }
+        .col-6{
+            background: lightgreen;
+        }
+        .col-8{
+            background: purple;
+        }
+        .col-10{
+            background: blue;
+        }
+        .col-12{
+            background: gray;
         }
     </style>
 </head>
 <body>
     <div class="elf-container">
         <h1>Grid Layout</h1>
+        <p>- O sistema de grid layout responsivo do elfstrap funciona em qualquer elemento (preferencialmente divs) 
+            que possuir a classe <strong>col-x</strong> (onde <strong>x</strong> é o tamanho, podendo ser 1, 2, 
+            3, 4, 6, 8, 10 ou 12) e estiver dentro de um elemento com a classe <strong>row</strong>. O somatório 
+            do tamanho das colunas <strong>col-x</strong> não deve ultrapassar 12.
+        </p>
         <div class="row">
             <div class="col-1 test">col-1</div>
             <div class="col-1 test">col-1</div>
@@ -22,8 +52,8 @@
             <div class="col-1 test">col-1</div>
             <div class="col-1 test">col-1</div>
             <div class="col-1 test">col-1</div>
-            <div class="col-1 test">col-1 dbr ervwe wrferve wrcer</div>
-            <div class="col-1 test">col-1 sevcerqvcewtvwet</div>
+            <div class="col-1 test">col-1</div>
+            <div class="col-1 test">col-1</div>
         </div>
         <div class="row">
             <div class="col-2 test">col-2</div>
@@ -50,7 +80,7 @@
         </div>
         <div class="row">
             <div class="col-8 test">col-8</div>
-            <div class="col-4">col-4</div>
+            <div class="col-4 test">col-4</div>
         </div>
         <div class="row">
             <div class="col-10 test">col-10</div>
