@@ -400,6 +400,9 @@
     border-bottom: 1px solid gray;
     vertical-align: center;
 }
+.elf-container .elform input:focus{     /* Remove o outline de quando a input é selecionada */
+    outline: none;
+}
 .elf-container .elform [type = submit]{
     border: none;
     background: #cccccc;

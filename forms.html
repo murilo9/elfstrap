@@ -6,8 +6,15 @@
 </head>
 <body>
     <div class="elf-container elf-container-narrow">
+        <h2>Forms</h2>
+        <p>- Forms que possuírem a classe <strong>elform</strong> permite que seus elementos 
+            internos sejam estilizados.</p>
         <form class="elform">
-            Input:<input type="text" name="inputtext"><br>
+            <p>- Qualquer input de texto (text, password, etc) vai ser estilizada se possuir a classe
+                <strong>inputtext</strong>:</p>
+            Input:<input type="text" name="inputtext"><br><br>
+            <p>- As inputs do tipo <i>radio</i>, <i>select</i>, <i>checkbox</i> e <i>submit</i> não 
+                precisam de classes e recebem um estilo automaticamente:</p>
             <input type="radio" name="iradio" value="radio1">Radio 1<br>
             <input type="radio" name="iradio" value="radio2">Radio 2<br>
             <select>
@@ -16,7 +23,10 @@
                 <option>Opção 3</option>
             </select>
             <input type="checkbox">Checkbox<br>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar"><br><br>
+            <p>- As inputs textarea podem ser definidas em 3 tamanhos diferentes com as classes 
+                <strong>ta-small</strong>, <strong>ta-medium</strong> ou <strong>ta-large</strong>.
+            </p>
             <textarea class="ta-small">Texto...</textarea>
             <textarea class="ta-medium">Texto...</textarea>
             <textarea class="ta-large">Texto...</textarea>
